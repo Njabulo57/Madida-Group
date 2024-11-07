@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Madida Group</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="left-nav">
+                <a href="index.html" class="logo">
+                    <svg class="logo-image" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+                        <g id="XMLID_2_">
+                            <polygon class="st0" points="1078.1,125.5 1413.5,948.6 1192.3,948.6 1077.1,671.1 962.9,948.6 739,948.6 851.4,676.8 	"/>
+                            <polygon class="st0" points="750.7,446.1 845.9,676.8 733.5,948.6 639.4,718.1 640.5,715.6 	"/>
+                            <polygon class="st0" points="633.3,165.8 746.3,439.5 635.1,711.5 527.4,970.4 415,699.5 	"/>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                    </svg>
+                    <h3 class="logo-text">MMTB <span>Group</span></h3>
+                </a>
+                <div class="left-nav-links">
+                    <a href="about-us.html" class="left-nav-link">About Us</a>
+                    <a href="companies.html" class="left-nav-link">Companies</a>
+                    <a href="expertise.html" class="left-nav-link">Expertise</a>
+                </div>
+            </div>
+            <div class="right-nav">
+                <a href="the-team.html" class="right-nav-link"><i class="bi bi-people-fill"></i> The Team</a>
+                <a href="contact.html" class="right-nav-link"><i class="bi bi-envelope-fill"></i> Contact</a>
+                <i class="bi bi-list"></i>
+            </div>
+        </nav>
+    </header>
+
+    <header class="header-mobile">
+        <div class="header-mobile-content">
+            <div class="mobile-menu-logo">
+                <div class="left-nav">
+                    <a href="index.html" class="logo">
+                        <svg class="logo-image" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+                            <g id="XMLID_2_">
+                                <polygon class="st0" points="1078.1,125.5 1413.5,948.6 1192.3,948.6 1077.1,671.1 962.9,948.6 739,948.6 851.4,676.8 	"/>
+                                <polygon class="st0" points="750.7,446.1 845.9,676.8 733.5,948.6 639.4,718.1 640.5,715.6 	"/>
+                                <polygon class="st0" points="633.3,165.8 746.3,439.5 635.1,711.5 527.4,970.4 415,699.5 	"/>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                            <g>
+                            </g>
+                        </svg>
+                        <h3 class="logo-text">MMTB <span>Group</span></h3>
+                    </a>
+                </div> 
+                <div class="right-nav">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+            </div>
+            <ul>
+                <li><a href="about-us.html">About Us</a><i class="bi bi-caret-right"></i></li>
+                <li><a href="companies.html" >Companies</a><i class="bi bi-caret-right"></i></li>
+                <li><a href="expertise.html" >Expertise</a><i class="bi bi-caret-right"></i></li>
+                <li><a href="the-team.html" >The Team</a><i class="bi bi-caret-right"></i></li>
+                <li><a href="contact.html">Contact</a><i class="bi bi-caret-right"></i></li>
+            </ul>
+            <div class="socials">
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- header ends -->
+    <main>
+        <section class="hero">
+            <div class="hero-nav-overlay">
+                <img src="hero-overlay.png" alt="img hero overlay-img" class="overlay-img">
+            </div>
+            <div class="hero-overlay">
+                <div class="cta">
+                    <h2>Unlock Asset Value with MMTB Group</h2>
+                </div>
+                <div class="companies-links">
+                    <div class="company-link link-1 company-link-active">
+                        <h1>
+                            <a href="manufacturing.html">Manufacturing </a>
+                            <span>Division</span>
+                        </h1>
+                    </div>
+                    <div class="company-link link-2">
+                        <h1>
+                            <a href="">Consultation </a>
+                            <span>Division</span>
+                        </h1>
+                    </div>
+                    <div class="company-link link-3">
+                        <h1>
+                            <a href="">Logistics </a>
+                            <span>Division</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- hero ends -->
+        <section class="about-us">
+            <div class="padding-inner">
+                <h2 class="about-us-header">Get to Know</h2>
+                <div class="discover-logo"><img src="MMTB Logo.svg" alt="MMTB logo in color">
+                    <h2>MMTB <span>Group</span></h2>
+                </div>
+                <div class="about-us-content">
+                    <p>As a forward-thinking business conglomerate, MMTB Group delivers unparalleled expertise and
+                        innovative solutions across diverse industries. Our mission is to maximize value and return for
+                        our clients at every critical inflection point in their business lifecycle. Since our inception
+                        in 2022, we have been committed to driving success through comprehensive services.
+                    </p>
+                </div>
+                <a href="" class="about-us-link">Discover More About Us</a>
+                <div class="breakers"></div>
+                <div class="breakers1"></div>
+            </div>
+        </section>
+
+        <!-- about us ends-->
+
+
+        <section class="analytics">
+            <div class="padding-inner">
+                <div class="analytics-row">
+                    <div class="analytic">
+                        <h2 data-percentage="6" class="analytics-num">
+                            0 <span>+</span>
+                        </h2>
+                        <div class="analytics-content">
+                            <p>Industries Served</p>
+                        </div>
+                    </div>
+
+                    <div class="analytic">
+                        <h2 data-percentage="2" class="analytics-num">
+                            0 <span>+</span>
+                        </h2>
+                        <div class="analytics-content">
+                            <p>Years of Expertise</p>
+                        </div>
+                    </div>
+                    <div class="analytic">
+                        <h2 data-percentage="5" class="analytics-num">
+                            0 <span>+</span>
+                        </h2>
+                        <div class="analytics-content">
+                            <p>Countries in Operation</p>
+                        </div>
+                    </div>
+                    <div class="analytic">
+                        <h2 data-percentage="100" class="analytics-num">
+                            0 <span>+</span>
+                        </h2>
+                        <div class="analytics-content">
+                            <p>Clients Served</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- analytics ends -->
+
+        <section class="the-team-title">
+            <div class="padding-inner">
+                <div class="title">
+                    <div class="title-heading team-title-heading">
+                        MMTB Group Leadership
+                    </div>
+                </div>
+                <div class="the-team-highlight">
+                    <div class="the-team-highlight-left-bg"></div>
+                    <div class="the-team-highlight-photo"><img src="pexels-divinetechygirl-1181391.jpg" alt=""></div>
+                    <div class="the-team-highlight-text">
+                        <h4 class="member-name">Thabiso Madida</h4>
+                        <div class="position">Chief Executive Officer</div>
+                        <div class="quote">
+                            <p>The MMTB operating structure is built to take advantage of a comprehensive range of
+                                financial solutions delivering valuation, monetization, and advisory services, while
+                                also leveraging deep restructuring expertise and investment capital to successfully
+                                complete transactions. </p>
+                        </div>
+                        <div class="team-logo">
+                            <img src="MMTB Logo.svg" alt="MMTB logo in color">
+                            <h2>MMTB <span>Group</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- team ends -->
+
+        <section class="services">
+            <div class="padding-inner">
+                <div class="services-title">
+                    <div class="title-heading services-title-heading">
+                        Services
+                    </div>
+                </div>
+                <div class="services-copywrite">
+                    <h3>Discover Our Services</h3>
+                    <div class="services-content">
+                        <p>Explore how our comprehensive range of services can support your business goals. From construction to events management, property rentals, manufacturing, logistics, farming, and business consultation & coaching, we are here to provide innovative solutions tailored to your needs.
+                        </p>
+                    </div>
+                </div>
+                <div class="services-offered">
+                    <div class="services-list">
+                        <div class="services-card">
+                            <div class="card">
+                                <div class="services-card-image">
+                                    <img alt="img services construction" src="services-construction.jpg">
+                                </div>
+                                <div class="services-card-body">
+                                    <h6 class="services-card-title">Construction</h6>
+                                    <div class="services-card-content">
+                                        <p>MMTB Construction delivers quality projects with precision and professionalism.</p>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="services-card">
+                            <div class="card">
+                                <div class="services-card-image">
+                                    <img alt="img services property" src="services-property.jpg">
+                                </div>
+                                <div class="services-card-body">
+                                    <h6 class="services-card-title"> Property Rentals</h6>
+                                    <div class="services-card-content">
+                                        <p>MMTB Properties provides diverse rentals and superior management services.</p>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="services-card">
+                            <div class="card">
+                                <div class="services-card-image">
+                                    <img alt="img services events management" src="services-events.jpg">
+                                </div>
+                                <div class="services-card-body">
+                                    <h6 class="services-card-title">Events Management</h6>
+                                    <div class="services-card-content">
+                                        <p>MMTB Events creates unforgettable experiences for all occasions.</p>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="services-card">
+                            <div class="card">
+                                <div class="services-card-image">
+                                    <img alt="img services manufacturing" src="services-manufacturing.jpg">
+                                </div>
+                                <div class="services-card-body">
+                                    <h6 class="services-card-title">Manufacturing</h6>
+                                    <div class="services-card-content">
+                                        <p>MMTB Manufacturing produces high-quality goods with skilled workforce.</p>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="services-card">
+                            <div class="card">
+                                <div class="services-card-image">
+                                    <img alt="img services business consultation/coaching" src="services-consultation.jpg">
+                                </div>
+                                <div class="services-card-body">
+                                    <h6 class="services-card-title"> Business Consultation</h6>
+                                    <div class="services-card-content">
+                                        <p>MMTB BCC enhances organizational performance and achieves professional goals.</p>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="services-card">
+                            <div class="card">
+                                <div class="services-card-image">
+                                    <img alt="img services logistics" src="services-logistics.jpg">
+                                </div>
+                                <div class="services-card-body">
+                                    <h6 class="services-card-title">Logistics</h6>
+                                    <div class="services-card-content">
+                                        <p>MMTB Logistics offers tailored transportation and warehousing solutions.</p>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="services-card">
+                            <div class="card">
+                                <div class="services-card-image">
+                                    <img alt="img services farming" src="services-farming.jpg">
+                                </div>
+                                <div class="services-card-body">
+                                    <h6 class="services-card-title">Farming</h6>
+                                    <div class="services-card-content">
+                                        <p>MMTB Farms employs sustainable practices for diverse crop cultivation.</p>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="padding-inner">
+            <div class="footer-widgets">
+                <div class="subscribe-widget">
+                    <div class="subscribe-widget-image">
+                        <img src="pexels-froet-3256016-5869295.jpg" alt="email-subscribe-form boardroom image">
+                    </div>
+                    <div class="subscribe-widget-content">
+                        <h5 class="label">SUBSCRIBE TO OUR EMAIL LIST</h5>
+                        <div class="widget-cta">
+                            <h3>Sign up to receive Smarter Perspective articles from MMTB Group and our companies</h3>
+                        </div>
+                        <form action="#" class="subscribe-form">
+                            <input type="email" name="email" placeholder="Enter email address">
+                            <button>
+                                <span>Subscribe</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-grid">
+                    <a href="#" class="footer-logo"><img src="MMTB Logo White.svg" alt="MMTB logo in color">
+                        <p>MMTB<span> Group</span></p>
+                    </a>
+                    <div class="footer-link-group">
+                        <h2 class="footer-group-heading">Expertise</h2>
+                        <div class="links-container">
+                            <ul class="links">
+                                <li class="link-item"><a href="">Business Consultation</a></li>
+                                <li class="link-item"><a href="">Manufacturing</a></li>
+                                <li class="link-item"><a href="">Events Management</a></li>
+                                <li class="link-item"><a href="">Construction</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-link-group">
+                        <h2 class="footer-group-heading">Helpful links</h2>
+                        <div class="links-container">
+                            <ul class="links">
+                                <li class="link-item"><a href="">Contact</a></li>
+                                <li class="link-item"><a href="">The Team</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-link-group">
+                        <h2 class="footer-group-heading">Social</h2>
+                        <div class="links-container">
+                            <ul class="links">
+                                <li class="link-item"><a href="">Facebook</a></li>
+                                <li class="link-item"><a href="">Instagram</a></li>
+                                <li class="link-item"><a href="">Twitter</a></li>
+                                <li class="link-item"><a href="">LinkedIn</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
