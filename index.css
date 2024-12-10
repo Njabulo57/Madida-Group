@@ -29,6 +29,17 @@
 
 }
 
+video{
+    object-fit: cover;
+    width: 100vw;
+    height: 110vh;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* display: none; */
+}
+
 .hero-overlay{
     height: 110vh;
     display: flex;
@@ -106,7 +117,7 @@
 
 @keyframes slide-in3 {
     to{
-        background-size: 52% 0.5rem;
+        background-size: 50% 0.5rem;
     }
 }
 
@@ -494,6 +505,10 @@ main{
     .hero{
         height: 71.5vh;
         margin-bottom: 4rem;
+    }
+    
+    video{
+        height: 71.5vh;
     }
 
     .hero-nav-overlay{

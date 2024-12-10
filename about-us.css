@@ -150,6 +150,53 @@
     font-size: 1.6rem;
 }
 
+/* about cta */
+
+.about-cta{
+    background-color: #EB5A2D;
+    padding: 4rem 0 20rem;
+    position: relative;
+    margin-bottom: -10rem;
+    z-index: 3;
+}
+
+.extra-padding{
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.about-cta-title{
+    font-weight: 300;
+    font-size: 4rem;
+    line-height: 1.2;
+    letter-spacing: -.2rem;
+    margin-bottom: 4rem;
+}
+
+.about-cta-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.about-cta-content{
+    font-size: 1.2rem;
+    line-height: 1.3;
+    font-weight: 300;
+    width: 52%;
+}
+
+.contact{
+    background: #fff;
+    width: 15.4rem;
+    line-height: 4rem;
+    padding: 0 3.9rem 0 2.4rem;
+    border: none;
+    color: #02464a;
+    border-radius: 3.2rem;
+}
+
 
 @media screen and (max-width:1160px) {
     .hero-title{
@@ -211,5 +258,25 @@
 
     .the-team-highlight-text{
         width: 100%;
+    }
+
+    .about-cta-title{
+        font-size: 2.4rem;
+    }
+
+    .about-cta-body{
+        flex-wrap: wrap;
+    }
+
+    .about-cta-content{
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact{
+        width: 10rem;
+        padding: 0 2rem 0 1rem;
+        line-height: 3rem;
     }
 }

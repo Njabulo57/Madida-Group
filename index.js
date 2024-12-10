@@ -171,12 +171,12 @@ gsap.from(".analytics-row", {
     counters.forEach(counter => {
       const updateCount = () => {
         const target = +counter.getAttribute('data-percentage');
-        let count = +counter.innerText.replace("+", "");
+        let count = +counter.innerText.replace(/[+%]/, "");
         const increment = target / 100;
 
         if (count < target) {
           counter.childNodes[0].nodeValue = Math.ceil(count + increment);
-          setTimeout(updateCount, 20);
+          setTimeout(updateCount, 40);
         } else {
           counter.childNodes[0].nodeValue = target;
         }
